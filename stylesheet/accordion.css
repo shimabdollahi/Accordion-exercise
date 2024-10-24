@@ -1,8 +1,22 @@
-.show{}
 .accordion{}
 .accordion__item{}
+
+.show{
+    display: block !important;
+}
+.collapse{
+    display: none;
+}
+
 .accordion__header{}
-.accordion__button{}
-.collapsed{}
+.accordion__button{
+    background-color: rgb(163, 232, 234);
+    color: blue;
+}
+.collapsed{
+    background-color: white;
+    color: black;
+}
+
 .accordion__collapse{}
 .accordion__body{}
